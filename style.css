@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #0e0e0e;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: #00ffcc;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 1rem;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color: #00ffcc;
+  }
+  
+  section {
+    padding: 100px;
+    min-height: 100vh;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+  }
+  
+  .home-content h3 {
+    color: #00ffcc;
+    margin-bottom: 20px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+  }
+  
+  .social-media a:hover {
+    color: #00ffcc;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00ffcc;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  form button {
+    background: #00ffcc;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a1a1a;
+  }
+  
